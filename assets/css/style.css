@@ -1,0 +1,136 @@
+body {
+    background-color: #FAE8E0;
+    color:#D8A7B1;
+}
+
+.btn {
+    color:#D8A7B1;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.navbar-inverse { 
+    background-color: #D8A7B1
+    
+}
+
+.footer { 
+    background-color: #D8A7B1
+}
+.copyright {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.social-networks{
+    text-align: center;
+
+}
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 1.5%;
+    color: white;
+}
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px; /* 5px rounded corners */
+  width: 100%;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+.productimg {
+  border-radius: 10px 10px 10px 10px;
+ 
+  width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.product{
+    background: url(../images/product-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+   
+}
+
+.heading {
+    font-size: 50px;  
+    font-weight: 400;
+   
+}
+
+#product-text {
+    color:#D8A7B1;
+    font-weight: 600;
+    font-size: 25px; 
+}
+
+.giftbox{
+    background: url(../images/giftbox-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+   
+}
+
+.about{
+    background: url(../images/aboutus-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+   
+}
+
+.contact {
+    background: url(../images/aboutus-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.modal-content {
+    background-color: #FAE8E0;
+
+}
+
+.btn-light:hover {
+    color:#D8A7B1;
+    background-color: white;
+
+}

@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Home</title>
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
-  <a class="navbar-brand" href="index.html">Melts Queen</a>
+    <nav class="navbar navbar-expand-lg navbar-inverse navbar-dark navbar-fixed-top">
+  <a class="navbar-brand" href="index.html">Candle Queen</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -39,9 +39,92 @@
   </div>
 </nav>
 </header>
-    
+
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+        </div>
+        
+        <div class="carousel-inner">
+            <div class="carousel-item active carousel-item-start">
+            <img src="assets/images/slidertwo.jpg" class="img-fluid mobile-slider" alt="Carousel image">
+            <img src="assets/images/slidertwo.jpg" class="img-fluid slider" alt="Carousel image">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Self-care isn't selfish</h1>
+                <p class="lead">Join the self-care club</p>
+                <p><a class="btn btn-primary uppercase letter-spacing" href="giftbox.html">Read blog</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-item-next carousel-item-start">
+            <img src="assets/images/sliderone.jpg" class="img-fluid mobile-slider" alt="Carousel image">
+            <img src="assets/images/sliderone.jpg" class="img-fluid slider" alt="Carousel image">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Treat yourself!</h1>
+                <p class="lead">Check out our range of handmade bath bombs</p>
+                <p><a class="btn btn-primary uppercase letter-spacing" href="products.html">Products</a></p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<h3>Intro section</h3>
+
+    <h3>Products page</h3>
+
+    <h3>Giftbox section</h3>
+
+<footer class="footer text-center text-white">
+  <div class="container p-4 pb-0">
+    <section class="">
+      <form action="">
+        <div class="row d-flex justify-content-center">
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+
+          <div class="col-md-5 col-12">
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="newsletter" class="form-control" />
+              <label class="form-label" for="newsletter">Email address</label>
+            </div>
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn mb-4">Subscribe</button>
+          </div>
+        </div>
+      </form>
+    </section>
+            <section>
+               <ul class="social-networks">
+                  <li><a href="https://www.facebook.com" target="_blank"> <i class="fab fa-facebook"> </i></a></li>
+                  <li><a href="https://www.twitter.com" target="_blank"> <i class="fab fa-twitter-square"> </i></a></li>
+                  <li><a href="https://www.youtube.com" target="_blank"> <i class="fab fa-youtube-square"> </i></a></li>
+                  <li><a href="https://www.instagram.com" target="_blank"> <i class="fab fa-instagram"> </i></a></li>
+               </ul>
+            </section>
+  </div>
+  <div class="copyright text-center p-3">© 2021 Copyright: <a class="text-white" href="https://orlawalsh.ie/">Orla Walsh</a>
+  </div>
+</footer>
 </body>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 </html>
