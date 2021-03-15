@@ -19,8 +19,6 @@ h1 {
     width:100%
 }
 
-
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -105,26 +103,13 @@ h1 {
   }
 }
 
-@media screen and (max-width: 767px) {   
-    .mobile-slider{
-    	background-image: url("/assets/images/slider-mobile.jpg") !important;
-    } 
-}
-
-@media screen and (min-width: 768px) {      
-    .mobile-slider{      
-    	background-image: url("/assets/images/slider-mobile.jpg") !important;
-    } 
-} 
-@media (min-width: 992px) {      
-      .slider{        
-          background-image: url("/assets/images/sliderone.jpeg") !important;
-      } 
-}
-@media (min-width: 1200px) {    
-     .slider{         
-         background-image: url("/assets/images/sliderone.jpeg") !important;
-     } 
+@media screen and (max-width: 900px){
+  .slider{
+    display:none;
+  }
+  .mobile-slider{
+    display:block;
+  }
 }
 
 .navbar-inverse { 
