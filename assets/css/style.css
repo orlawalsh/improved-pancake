@@ -103,7 +103,12 @@ h1 {
   }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1000px){
+     button.navbar-toggler {
+        position: absolute !important;
+        right: 10px !important;
+        top: 14px !important;
+    }
   .slider{
     display:none;
   }
