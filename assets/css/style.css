@@ -100,9 +100,18 @@ h1 {
   }
 
   .carousel-caption {
-      background-color: #FAE8E0;
-        padding:30px;
-        font-size: 70%;
+      background-color: rgba(0,0,0,0.3);
+        padding:8px;
+        font-size: 80%;
+  }
+
+  .carousel-caption h1 {
+      color:white;
+  }
+
+  .mobile {
+      color:white;
+      font-weight: bold;
   }
 }
 
