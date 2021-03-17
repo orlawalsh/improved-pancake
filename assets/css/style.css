@@ -1,16 +1,19 @@
 body {
     background-color: #FAE8E0;
     font-size: 20px !important;
-    color:#D8A7B1;
+    /* color:#D8A7B1; */
+    color: #444444;
     font-family: 'Karla', sans-serif;
 }
 
 .btn {
-    color:#D8A7B1;
+    columns: #444444;
 }
 
 h1 {
-    color:#D8A7B1;
+    color:#444444;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px #444444;
 }
 
 .img-fluid {
@@ -19,21 +22,16 @@ h1 {
     width:100%
 }
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
-  color:#D8A7B1;
+  color:#444444;
 }
-/* Since positioning the image, we need to help out the caption */
+
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
 }
 
-/* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
 }
@@ -45,28 +43,16 @@ h1 {
   height: 32rem;
 }
 
-
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
+
 }
-.marketing h2 {
+
+.marketing h5 {
   font-weight: 400;
+  padding-top: 1.5rem;
 }
-/* rtl:begin:ignore */
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
-}
-/* rtl:end:ignore */
-
-
-/* Featurettes
-------------------------- */
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
@@ -80,9 +66,6 @@ h1 {
   letter-spacing: -.05rem;
 }
 
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
 
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
@@ -114,6 +97,11 @@ h1 {
   }
   .mobile-slider{
     display:block;
+  }
+
+  .carousel-caption {
+      background-color: #FAE8E0;
+        padding:30px;
   }
 }
 
@@ -147,11 +135,10 @@ h1 {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  border-radius: 10px; /* 5px rounded corners */
+  border-radius: 10px; 
   width: 100%;
 }
 
-/* Add rounded corners to the top left and the top right corner of the image */
 .productimg {
   border-radius: 10px 10px 10px 10px;
  
@@ -177,7 +164,8 @@ h1 {
 }
 
 #product-text {
-    color:#D8A7B1;
+    /* color:#D8A7B1; */
+    color: #444444;
     font-weight: 600;
     font-size: 25px; 
 }
@@ -232,3 +220,22 @@ h1 {
 
 }
 
+
+
+/* .cover {
+    font-size: 130%;
+    font-family: Karla;
+    width: 600px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom: 150px;
+    right: 500px;
+
+    position: absolute;
+
+} */
