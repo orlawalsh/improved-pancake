@@ -22,9 +22,26 @@ h1 {
     width:100%
 }
 
+.featurette-photo {
+    width:100%
+}
+
+.slider-text {
+    font-size: 50px;  
+    font-weight: 500;
+    /* color: #864E5A; */
+    color: #915C67;
+    
+}
+
 .carousel {
   margin-bottom: 4rem;
   color:#444444;
+  
+}
+
+.mobile {
+    color: #444444;
 }
 
 .carousel-caption {
@@ -170,6 +187,7 @@ h1 {
 .heading {
     font-size: 50px;  
     font-weight: 400;
+    color: white;
    
 }
 
@@ -229,23 +247,3 @@ h1 {
     background-color: white;
 
 }
-
-
-
-/* .cover {
-    font-size: 130%;
-    font-family: Karla;
-    width: 600px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(241, 109, 107, .7);
-
-    bottom: 150px;
-    right: 500px;
-
-    position: absolute;
-
-} */
